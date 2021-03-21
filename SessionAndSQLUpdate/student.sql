@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 10, 2020 at 06:53 AM
+-- Generation Time: Mar 21, 2021 at 12:48 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.2.27
 
@@ -45,8 +45,8 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`username`, `password`, `firstname`, `email`, `address`, `dob`, `gender`, `profession`, `interests`) VALUES
-('hsa10', '123456', 'Sazzad', 'sazzad@aiub.edu', 'Aiub', '19/12/19', 'male', 'Academician', 'music'),
-('jhon', '123', 'jhon', 'jhon@email.com', 'bashundhara', '11/11/2001', 'male', 'student', 'sports');
+('hsa10', '123456', 'bob', 'sazzad123@aiub.edu', 'aaa', '1990-12-23', 'male', 'Academician', 'music'),
+('jhon', '123', 'jhon', 'jhon@email.com', 'bashundhara', '1990-12-23', 'male', 'student', 'sports');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
