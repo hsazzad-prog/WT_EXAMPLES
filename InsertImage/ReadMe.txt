@@ -1,0 +1,1 @@
+Import files.sql file in mydb dataabse, it will create new table called files.
