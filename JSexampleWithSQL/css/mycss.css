@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: left;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+div.sticky {
+    position: sticky;
+    top: 0;
+    padding: 0;
+    border: 2px solid #8461d4;
+  
+  }
+/* Style the top navigation bar */
+.topnav {
+  
+  overflow: hidden;
+  background-color: rgb(30, 8, 51);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav p {
+    float: right;
+    display: block;
+    color: blue;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+/* Footer */
+.footer {
+
+  padding: 20px;
+  text-align: center;
+  background: gray;
+  margin-top: 20px;
+}
+
+
