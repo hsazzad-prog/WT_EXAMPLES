@@ -4,7 +4,7 @@
 <html>
 <body>
 <h1>Registration form </h1>
-<form action="<?php echo $_SERVER["PHP_SELF"];?>" method="post">
+<form action="" method="post">
 Enter your first name: <input type="text" name="fname"> <?php echo $validatename; ?>
 <br>
 <br>
